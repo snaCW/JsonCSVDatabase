@@ -23,6 +23,7 @@ Overloads:
 Changes the current header to the new one.
 Exceptions:
 - `ArgumentOutOfRangeException` if the new header elements count doesn't match the current header elements count.
+
 Overloads:
 - `public void ChangeHeaderTo(string[] header)`
 - `public void ChangeHeaderTo(List<string> header)`
