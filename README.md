@@ -2,7 +2,7 @@
 A namespace containing classes to convert CSV to JSON or Excel and vice versa.
 
 Class `CSVDatabase` gets data to create an obj with several methods.
-##public string Delimeter
+## public string Delimeter
 You can change the default value for the delimeter (`","`) easily.
 ##`public int ColumnCount { get; private set; }`
 Get the amount of columns.
