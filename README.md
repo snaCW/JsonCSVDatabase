@@ -14,7 +14,7 @@ Constructor with path to an existing CSV file.
 Reads from the specified file and returns `this`.
 ## public CSVDatabase SetDelimeter(string delimeter)
 Sets the specified delimeter and returns `this`.
-## public static CSVDatabase SetNewDatabaseHeader(string header, string delimeter = ",")
+## `public static CSVDatabase SetNewDatabaseHeader(string header, string delimeter = ",")`
 Uses the specified delimeter to split the header and assigns the value to `Headers` private data member.
 Overloads:
 - public static CSVDatabase SetNewDatabaseHeader(string[] header, string delimeter = ",")
