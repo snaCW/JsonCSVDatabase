@@ -19,3 +19,12 @@ Uses the specified delimeter to split the header and assigns the value to `Heade
 Overloads:
 - `public static CSVDatabase SetNewDatabaseHeader(string[] header, string delimeter = ",")`
 - `public static CSVDatabase SetNewDatabaseHeader(List<string> header, string delimeter = ",")`
+## `public void ChangeHeaderTo(string header)`
+Changes the current header to the new one.
+Exceptions:
+- `ArgumentOutOfRangeException` if the new header elements count doesn't match the current header elements count.
+Overloads:
+- `public void ChangeHeaderTo(string[] header)`
+- `public void ChangeHeaderTo(List<string> header)`
+## `public void Clear()`
+Clears the entire object to the initial state. Please note that the `Delimeter` value will return back to `","`.
