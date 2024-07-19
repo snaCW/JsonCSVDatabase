@@ -1,5 +1,5 @@
 # JsonCSVDatabase
-A namespace containing classes to convert CSV to JSON or Excel and vice versa.
+A namespace containing classes to convert CSV to JSON or Excel and vice versa. This project is still not completed.
 
 Class `CSVDatabase` gets data to create an obj with several methods.
 
