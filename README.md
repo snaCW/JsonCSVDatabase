@@ -1,4 +1,7 @@
 # JsonCSVDatabase
+
+**This namespace is outdated! Please refer to my new project `DictionaryLists`. That namespace is going to cover all types of plain databases such as CSV, JSON, and Excel.**
+
 A namespace containing classes to convert CSV to JSON or Excel and vice versa. This project is still not completed.
 
 Class `CSVDatabase` gets data to create an obj with several methods.
